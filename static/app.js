@@ -2,7 +2,7 @@
 function getPlot(id) {
 
 // getting data from the json file
-d3.json("static/samples.json").then((data) => {
+d3.json("./static/samples.json").then((data) => {
     var metadata = data.metadata
   console.log(metadata);
   var jsonsample = data.samples
